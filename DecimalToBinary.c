@@ -2,17 +2,21 @@
 
 #include <stdio.h>
 
-void PrintBits(int power, int num){
+void PrintBits(int power, int num)
+{
     // firstOne is a flag that stops "0" being printed before a "1" is printed
     int firstOne = 0;
 
     // Conversion loop
-    while (power > 0) {
-      if (num >= power) {
+    while (power > 0)
+    {
+      if (num >= power) 
+      {
         firstOne = 1;
         printf("1");
         num %= power;
-      } else if (firstOne == 1) {
+      } else if (firstOne == 1) 
+      {
           printf("0");
       }
       power /= 2;

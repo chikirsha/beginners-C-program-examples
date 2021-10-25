@@ -12,7 +12,9 @@
 //-----------------------------------------------------------------------
 
 #include<stdio.h>
-int main(){
+int main()
+{
+    
     int hour, amount;
     printf("Enter number of duty hours\n");
     scanf("%d", &hour);

@@ -2,7 +2,7 @@
 int main()
 {
     long long int r,k,j,i,coeff;
- // input nuber of rows
+ // input number of rows
     scanf("%lld",&r);
 
     

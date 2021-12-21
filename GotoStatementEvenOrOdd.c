@@ -1,6 +1,3 @@
-// Program to input an integer number and check whether it is
-//even or odd and positive or negative using goto  statements
-
 #include <stdio.h>
   int main() {
 
